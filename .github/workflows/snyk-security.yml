@@ -49,7 +49,7 @@ jobs:
 
         env:
           # This is where you will need to introduce the Snyk API token created with your Snyk account
-          SNYK_TOKEN: ${{8ec26c30-4c3b-4b33-8f0a-61ca2438b5a4}}
+          SNYK_TOKEN: '8ec26c30-4c3b-4b33-8f0a-61ca2438b5a4'
 
         # Runs Snyk Code (SAST) analysis and uploads result into GitHub.
         # Use || true to not fail the pipeline
